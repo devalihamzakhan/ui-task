@@ -56,14 +56,23 @@ body{
   margin-right: 150px;
 }
 
+.intro-container p, li{
+  color: grey;
+}
+
 .icon-container{
   margin-top: 45px;
   display: flex;
   flex-direction: row;
 }
 
+.icon-container img{
+  height: 40px;
+  width: 40px;
+}
+
 .inline{
-  display: inline-flex;
+  display:flex;
 }
 
 .intro-container h6{
@@ -273,6 +282,11 @@ body{
   justify-content: center;
 }
 
+.offering-item img{
+  width: 40px;
+  height: 40px;
+}
+
 .item-container{
   padding-bottom: 45px;
   padding-left: 15px;
@@ -434,6 +448,10 @@ body{
 #testimonials, #offerings h2{
   font-weight: bold;
   font-size: 36px;
+}
+
+#offerings h2{
+  margin-bottom: 15px;
 }
 
 #testimonials, #offerings p{
@@ -862,8 +880,29 @@ nav ul li a{
   }
 }
 
-@media (max-width: 520px){
+@media (max-width:555px){
 
+  #offerings h2{
+    font-size: 33px;
+  }
+
+  .intro-container h3{
+    font-size: 24px;
+  }
+}
+
+
+@media (max-width:525px){
+
+  #offerings h2{
+    font-size: 30px;
+  }
+  .featured-title h2{
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 520px){
   .item-container img{
     max-width: 340px;
   }
@@ -873,6 +912,19 @@ nav ul li a{
 }
 
 @media (max-width: 500px){
+
+  #offerings h2{
+    font-size: 24px;
+  }
+
+  .testimonial-title h2{
+    font-size: 30px;
+  }
+
+  .featured-title h2{
+    font-size: 25px;
+  }
+
   .testimonial-item{
     max-width: 438px;
   }
@@ -883,6 +935,18 @@ nav ul li a{
 }
 
 @media (max-width: 381px) {
+
+  #offerings h2{
+    font-size: 18px;
+  }
+
+  .testimonial-title h2{
+    font-size: 25px;
+  }
+
+  .featured-title h2{
+    font-size: 21px;
+  }
   .features-filter{
     margin-right: 9px;
     margin-bottom: 5px;
