@@ -63,7 +63,7 @@ body{
 }
 
 .inline{
-  display: block ruby;
+  display: inline-flex;
 }
 
 .intro-container h6{
